@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>keanu freelancer</title>
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
     <header class="header">
         <div class="menu">
+            <a class="header__logo">
+                <img class="header__logo-image" src="./images/logo.svg" alt="Логотип">
+            </a>
             <nav class="header__menu">
                 <ul class="socials">
                     <li class="header__social-list-item">
@@ -32,9 +38,6 @@
                     </li>
                 </ul>
             </nav>
-            <a class="header__logo">
-                <img class="header__logo-image" src="./images/logo.svg" alt="Логотип">
-            </a>
         </div>
         <div class="hero-text">
             <div class="hero-group">
@@ -43,40 +46,40 @@
                 <p class="hero-p">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина</p>
                 <button class="hero-button">Бесплатная консультация</button>
             </div>
-            <img src="./images/avatar.jpg" alt="Аватар">
+            <img class="avatar" src="./images/avatar.jpg" alt="Аватар">
         </div>
     </header>
     <main>
         <section class="features">
-            <h2 class="h2-title">Со мной удобно работать</h2>
+            <h2 class="h2-title features-title">Со мной удобно работать</h2>
             <div class="features-block">
                 <div class="features-card">
-                    <img src="/images/offer-img.svg" alt="Offer">
+                    <img class="features-svg" src="./images/offer-img.svg" alt="Offer">
                     <h3 class="features-card-title">По договору</h3>
                     <p class="features-card-description">Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю как ИП без НДС.</p>
                 </div>
                 <div class="features-card">
-                    <img src="/images/deadline-img.svg" alt="Deadline">
+                    <img class="features-svg" src="./images/deadline-img.svg" alt="Deadline">
                     <h3 class="features-card-title">Точно в срок</h3>
                     <p class="features-card-description">В договоре прописана моя  ответственность за срок проекта. Если просрочу — плачу неустойку.</p>
                 </div>
                 <div class="features-card">
-                    <img src="/images/agreement-img.svg" alt="Agreement">
+                    <img class="features-svg" src="./images/agreement-img.svg" alt="Agreement">
                     <h3 class="features-card-title">Ценник под вас</h3>
                     <p class="features-card-description">Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню, как складывается цена.</p>
                 </div>
                 <div class="features-card">
-                    <img src="/images/steps-img.svg" alt="Steps">
+                    <img class="features-svg" src="./images/steps-img.svg" alt="Steps">
                     <h3 class="features-card-title">Премежуточные итоги</h3>
                     <p class="features-card-description">Показываю работу поэтапно, а не в последий момент перед крайним сроком.</p>
                 </div>
                 <div class="features-card">
-                    <img src="/images/storage-img.svg" alt="Storage">
+                    <img class="features-svg" src="./images/storage-img.svg" alt="Storage">
                     <h3 class="features-card-title">Хостинг и домен</h3>
                     <p class="features-card-description">Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на год + SSL сертификат.</p>
                 </div>
                 <div class="features-card">
-                    <img src="/images/conversation-img.svg" alt="Conversation">
+                    <img class="features-svg" src="./images/conversation-img.svg" alt="Conversation">
                     <h3 class="features-card-title">Не брошу после сдачи</h3>
                     <p class="features-card-description">Научу вас или вашего сотрудника пользоваться сайтом, запишу видео-инструкции.</p>
                 </div>
@@ -87,38 +90,39 @@
             <div class="portfolio-block">
                 <div class="portfolio-card portfolio-card-one">
                     <h3 class="portfolio-card-title">The curious corner of chamarel</h3>
-                    <button class="portfolio-button"></button>
+                    <button class="portfolio-button">Посмотреть</button>
                 </div>
                 <div class="portfolio-card portfolio-card-two">
                     <h3 class="portfolio-card-title">Gymkhana club golf course</h3>
-                    <button class="portfolio-button"></button>
+                    <button class="portfolio-button">Посмотреть</button>
                 </div>
                 <div class="portfolio-card portfolio-card-three">
                     <h3 class="portfolio-card-title">Tamarind falls hiking trip - full day</h3>
-                    <button class="portfolio-button"></button>
+                    <button class="portfolio-button">Посмотреть</button>
                 </div>
+            </div>
         </section>
         <section class="gallery">
             <div class="photo-grid">
-                <img src="/images/" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <video src=""></video>
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <video src=""></video>
-                <img src="" alt="">
+                <img class="photo-gallery" src="./images/office.jpg" alt="Офис">
+                <img class="photo-gallery" src="./images/cafe.jpg" alt="Кафе">
+                <img class="photo-gallery" src="./images/stand-up.jpg" alt="Стэнд ап">
+                <img class="photo-gallery" src="./images/office-2.jpg" alt="Офис">
+                <img class="photo-gallery" src="./images/figma.jpg" alt="Фигма">
+                <img class="photo-gallery" src="./images/mac.jpg" alt="Mac">
+                <img class="photo-gallery" src="./images/office-3.jpg" alt="Офис">
+                <img class="photo-gallery" src="./images/office-4.jpg" alt="Офис">
+                <img class="photo-gallery" src="./images/black.jpg" alt="Женщина">
+                <img class="photo-gallery" src="./images/figma-2.jpg" alt="Фигма">
+                <img class="photo-gallery" src="./images/bridge.jpg" alt="Мост">
+                <img class="photo-gallery" src="./images/table.jpg" alt="Стол">
             </div>
         </section>
     </main>
     <footer class="contacts">
-        <h2 class="h2-title">Свяжитесь со мной</h2>
+        <h2 class="h2-title contacts-heading">Свяжитесь со мной</h2>
         <div class="form">
-            <form class="footer-form" action="">
+            <form class="footer-form">
             <p class="footer-form-description">Можете просто оставить заявку, я позвоню вам сегодня</p>
             <div class="accent-flex">
                 <input class="input-text icon-user" type="text" placeholder="Ваше имя">
@@ -126,45 +130,45 @@
             </div>
             <button class="footer-button">Бесплатная консультация</button>
             </form>
-        </div>
-        <div class="footer-contacts">
-            <div class="footer-contacts-main">
-                <div class="footer-card">
-                    <h3 class="footer-heading">Телефон</h3>
-                    <a href="tel:+79991234567">+7 999 123 45 67</a>
+            <div class="footer-contacts">
+                <div class="footer-contacts-main">
+                    <div class="footer-card">
+                        <h3 class="footer-heading">Телефон</h3>
+                        <a class="footer-link" href="tel:+79991234567">+7 999 123 45 67</a>
+                    </div>
+                    <div class="footer-card">
+                        <h3 class="footer-heading">Почта</h3>
+                        <a class="footer-link" href="mailto:ivanov@mail.ru">ivanov@mail.ru</a>
+                    </div>
+                    <div class="footer-card">
+                    <h3 class="footer-heading">Соцсети</h3>
+                        <ul class="footer-socials">
+                            <li class="footer__social-list-item">
+                                <a class="footer__social-link">
+                                <img class="footer__social-icon" src="./images/facebook.svg" alt="Facebook">
+                                </a>
+                            </li>
+                            <li class="footer__social-list-item">
+                                <a class="footer__social-link">
+                                <img class="footer__social-icon" src="./images/instagram.svg" alt="Instagram">
+                                </a>
+                            </li>
+                            <li class="footer__social-list-item">
+                                <a class="footer__social-link">
+                                <img class="footer__social-icon" src="./images/twitter.svg" alt="Twitter">
+                                </a>
+                            </li>
+                            <li class="footer__social-list-item">
+                                <a class="footer__social-link">
+                                <img class="footer__social-icon" src="./images/github.svg" alt="GitHub">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="footer-card">
-                    <h3 class="footer-heading">Почта</h3>
-                    <a href="mailto:ivanov@mail.ru">ivanov@mail.ru</a>
+                <div class="footer-contacts-policy">
+                <a href="">Политика конфиденциальности</a>
                 </div>
-                <div class="footer-card">
-                <h3 class="footer-heading">Соцсети</h3>
-                    <ul class="footer-socials">
-                        <li class="footer__social-list-item">
-                            <a class="footer__social-link">
-                            <img class="footer__social-icon" src="./images/facebook.svg" alt="Facebook">
-                            </a>
-                        </li>
-                        <li class="footer__social-list-item">
-                            <a class="footer__social-link">
-                            <img class="footer__social-icon" src="./images/instagram.svg" alt="Instagram">
-                            </a>
-                        </li>
-                        <li class="footer__social-list-item">
-                            <a class="footer__social-link">
-                            <img class="footer__social-icon" src="./images/twitter.svg" alt="Twitter">
-                            </a>
-                        </li>
-                        <li class="footer__social-list-item">
-                            <a class="footer__social-link">
-                            <img class="footer__social-icon" src="./images/github.svg" alt="GitHub">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-contacts-policy">
-            <a href="">Политика конфиденциальности</a>
             </div>
         </div>
     </footer>
